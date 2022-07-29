@@ -49,6 +49,19 @@ asdasfasf
         //Init Vanta
         VANTA.TOPOLOGY(vantaObj)
 
+        //Console message ;D
+        if (navigator.userAgent.toLowerCase().indexOf("chrome") > -1) {
+        const consoleMessage = [
+        "\n %c Made with \u2665 by Zoltan \n",
+        "color: #fff; background: #000; padding: 5px 0;",
+        ];
+        window.console.log.apply(console, consoleMessage);
+        } else
+        window.console &&
+            window.console.log(
+            "Made with \u2665 by Zoltan"
+        );
+
     </script>
 </body>
 </html>
