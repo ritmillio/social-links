@@ -8,8 +8,47 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-    <div class="text-center bg-green-500 text-white">
-        Zoltan Fodor Linktree
+    <div style="height:100vh;" id="vanta">
+asdasfasf
     </div>
+    <!--Preload Vanta.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+    <script>
+        //Creating a unique experience for each person by creating a random dark and light color and load those colores into Vanta object.
+
+        //Foreground color
+        const randomColor = ()=> {
+            let color = "#";
+            for (let i = 0; i < 3; i++)
+                color += ("0" + Math.floor(((1 + Math.random()) * Math.pow(16, 2)) / 2).toString(16)).slice(-2);
+            return color;
+        }
+
+        //Background Color
+        const randomBackgroundColor =()=> {
+            let color = "#";
+            for (let i = 0; i < 3; i++)
+                color += ("0" + Math.floor(Math.random() * Math.pow(16, 2) / 2).toString(16)).slice(-2);
+            return color;
+        }
+
+
+        //Creating a VANTA object 
+        const vantaObj = {
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: randomColor(),
+            backgroundColor: randomBackgroundColor()
+        }
+
+        //Init Vanta
+        VANTA.TOPOLOGY(vantaObj)
+
+    </script>
 </body>
 </html>
