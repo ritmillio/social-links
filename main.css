@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Creating a btn component */
+.btn {
+    @apply bg-white text-black text-center uppercase rounded-lg px-8 py-2 mb-4 flex items-center justify-center;
+    width: inherit;
+}
