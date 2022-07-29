@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>@zoltanfodor - linktr</title>
+    <meta name="title" content="Zoltan Fodor Linktree">
+    <meta name="description" content="Creative Web and Ecommerce Developer. Follow me on social.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wwww.linktr.zoltanfodor.dev">
+    <meta property="og:title" content="Follow me on social - @zoltanfodor">
+    <meta property="og:description" content="Creative Web and Ecommerce Developer. If you like my content or work let's connect and talk business">
+    <meta property="og:image" content="https://zoltanfodor.b-cdn.net/profpic.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://wwww.linktr.zoltanfodor.dev">
+    <meta property="twitter:title" content="Zoltan Fodor Linktree">
+    <meta property="twitter:description" content="Creative Web and Ecommerce Developer. If you like my content or work let's connect and talk business">
+    <meta property="twitter:image" content="https://zoltanfodor.b-cdn.net/profpic.jpeg">
+
     <link href="./output.css" rel="stylesheet">
+    <link rel="icon" href="https://zoltanfodor.b-cdn.net/fav.png">
 </head>
 <body>
     <div style="height:100vh; background-color: black;" id="vanta">
@@ -79,7 +98,7 @@
         //Creating a unique experience for each person by creating a random dark and light color and load those colores into Vanta object.
 
         //Foreground color
-        const randomColor = ()=> {
+        const randomColor = () => {
             let color = "#";
             for (let i = 0; i < 3; i++)
                 color += ("0" + Math.floor(((1 + Math.random()) * Math.pow(16, 2)) / 2).toString(16)).slice(-2);
@@ -87,7 +106,7 @@
         }
 
         //Background Color
-        const randomBackgroundColor =()=> {
+        const randomBackgroundColor = () => {
             let color = "#";
             for (let i = 0; i < 3; i++)
                 color += ("0" + Math.floor(Math.random() * Math.pow(16, 2) / 2).toString(16)).slice(-2);
