@@ -765,9 +765,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     </style>
     <link rel="icon" href="https://zoltanfodor.b-cdn.net/fav.png">
 </head>
-
-<body>
-    <div style="height:100vh; max-height: 100vh;overflow: hidden; background-color: black;" id="vanta">
+<body style="height:100vh; max-height: 100vh;overflow-y: hidden;width: 100%;max-width: auto;">
+    <div style="height: 100vh;background-color: black;" id="vanta">
         <div class="container mx-auto md:max-w-md py-2 md:py-6 px-4">
             <!--Profile pic-->
             <img class="h-32 text-center mx-auto rounded-full" src="https://zoltanfodor.b-cdn.net/profpic.jpeg"
@@ -890,7 +889,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
         //Init Vanta
         VANTA.TOPOLOGY(vantaObj)
-        document.querySelector('#vanta').style.maxWidth = "100vh";
+        document.querySelector('#vanta').style.maxHeight = "100vh";
 
         //Console message ;D
         if (navigator.userAgent.toLowerCase().indexOf("chrome") > -1) {
