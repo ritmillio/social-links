@@ -1,12 +1,7 @@
 Custom Linktree - Using Tailwindcss and Vanta.js
 ================================================
 
-[
-
-Link to my Linktr
------------------
-
-](https://linktr.zoltanfodor.dev)
+[Link to my Linktree](https://linktr.zoltanfodor.dev)
 
 This Linktree was inspired by [@Linktree](https://linktr.ee/s/discover/share-content/) and [@craftzdog](https://github.com/craftzdog/link-in-bio)
 
