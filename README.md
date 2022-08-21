@@ -5,7 +5,7 @@ Custom Linktree - Using Tailwindcss and Vanta.js
 
 This Linktree was inspired by [@Linktree](https://linktr.ee/s/discover/share-content/) and [@craftzdog](https://github.com/craftzdog/link-in-bio)
 
-### This Linktree has a twist - users always land a custom VANTA background.
+### This Linktree has a twist - users always land on a custom VANTA background.
 
 #### This was achived by separating light and dark random colors and push it into VANTA object
 
