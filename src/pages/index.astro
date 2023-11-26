@@ -4,216 +4,156 @@ import "../main.css";
 ---
 
 <Layout title="Welcome to Astro.">
-	<div style="height: 100vh;background-color: black;" id="vanta">
-		<div class="container mx-auto md:max-w-md py-2 md:py-6 px-4">
-			<!--Profile pic-->
-			<img
-				class="h-32 text-center mx-auto rounded-full"
-				src="https://zoltanfodor.b-cdn.net/profpic.jpeg"
-				alt="Zoltan Fodor Profile Picture"
-			/>
-			<!--Name tag-->
-			<div
-				class="mt-4 mx-auto flex items-center justify-center w-fit bg-white px-4 py-2 rounded-lg"
-			>
-				<span>@zoltanfodor</span>
-				<img
-					class="ml-2"
-					src="https://zoltanfodor.b-cdn.net/plus.svg"
-					alt="Verified user"
-				/><span>&nbsp;🐧</span>
-			</div>
+  <div style="height: 100vh;background-color: black;" id="vanta">
+    <div class="container mx-auto md:max-w-md py-2 md:py-6 px-4">
+      <!--Profile pic-->
+      <img
+        class="h-32 text-center mx-auto rounded-full"
+        src="https://zoltanfodor.b-cdn.net/profpic.jpeg"
+        alt="Zoltan Fodor Profile Picture"
+      />
+      <!--Name tag-->
+      <div
+        class="mt-4 mx-auto flex items-center justify-center w-fit bg-white px-4 py-2 rounded-lg"
+      >
+        <span>@zoltanfodor</span>
+        <img
+          class="ml-2"
+          src="https://zoltanfodor.b-cdn.net/plus.svg"
+          alt="Verified user"
+        /><span>&nbsp;🐧</span>
+      </div>
 
-			<!--Social Links-->
-			<div class="py-4">
-				<!--Personal site-->
-				<a href="https://zoltanfodor.dev/" target="_blank" class="btn">
-					<span>My portfolio</span><img
-						class="w-8 h-8 ml-1"
-						src="https://zoltanfodor.b-cdn.net/code-brack.png"
-						alt="Check out my Personal Portfolio site - @zoltanfodor"
-					/>
-				</a>
-				<!--LinkedIn-->
-				<a
-					href="https://www.linkedin.com/in/zoltan-fodor-007/"
-					target="_blank"
-					class="btn"
-				>
-					<span>Find me on Linkedin</span><img
-						class="w-8 h-8 ml-1"
-						src="https://zoltanfodor.b-cdn.net/linkedin.svg"
-						alt="Let's connect on LinkedIn - and talk business or just simple dev stuff"
-					/>
-				</a>
-				<!-- Twitter -->
-				<a
-					href="https://twitter.com/zoltan_fodor_"
-					target="_blank"
-					class="btn"
-				>
-					<span>Find me on Twitter</span><img
-						class="w-8 h-8 ml-1"
-						src="https://zoltanfodor.b-cdn.net/twitter-logog.webp"
-						alt="Follow me on Twitter"
-					/>
-				</a>
-				<!--Discord -->
-				<a
-					href="https://discordapp.com/users/495983789189758988"
-					target="_blank"
-					class="btn"
-				>
-					<span>Find me on Discord</span><img
-						class="w-8 h-8 ml-1"
-						src="https://zoltanfodor.b-cdn.net/discord-logo.png"
-						alt="Follow me on Twitter"
-					/>
-				</a>
-				<!--Medium-->
-				<a
-					href="https://medium.com/@zoltan_fodor_"
-					target="_blank"
-					class="btn"
-				>
-					<span>Read my articles on Medium</span><img
-						class="w-8 h-8 ml-1"
-						src="https://zoltanfodor.b-cdn.net/medium.png"
-						alt="Check out my articles on Medium"
-					/>
-				</a>
-				<div style="display: none;">ZOLTANFODOR</div>
+      <!--Social Links-->
+      <div class="py-4">
+        <!--Github -->
+        <a href="https://github.com/ritmillio" target="_blank" class="btn">
+          <span>Github</span>
+        </a>
+        <!--Personal site-->
+        <a href="https://zoltanfodor.dev/" target="_blank" class="btn">
+          <span>Portfolio</span>
+        </a>
+        <!-- Twitter -->
+        <a href="https://twitter.com/zoltan_fodor_" target="_blank" class="btn">
+          <span>X</span>
+        </a>
+        <!--Medium-->
+        <a href="https://medium.com/@zoltan_fodor_" target="_blank" class="btn">
+          <span>Medium</span>
+        </a>
+        <a href="https://www.twitch.tv/ritmillio" target="_blank" class="btn">
+          <span>Twitch</span>
+        </a>
+        <!--LinkedIn-->
+        <a
+          href="https://www.linkedin.com/in/zoltan-fodor-007/"
+          target="_blank"
+          class="btn"
+        >
+          <span>Linkedin</span>
+        </a>
+        <div style="display: none;">ZOLTANFODOR</div>
+      </div>
 
-				
-				
-					<!-- <img class="w-8 h-8 ml-1"
-                        src="https://zoltanfodor.b-cdn.net/vador-logos/Vador%20Digital-re-small.png"
-                        alt="Vador Digital ecommerce agency"
-						> -->
-				<!--Buy me a coffee-->
-				<!--<a href="https://www.buymeacoffee.com/zoltanfodor" target="_blank" class="btn">
-                    <span>Buy me a coffee</span><img class="w-8 h-8 ml-1"
-                        src="https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-1.svg"
-                        alt="If you like the content that I am producing support me via Buy me a Coffee">
-                </a>-->
-			</div>
+      <!--Social Quick Links-->
+      <div class="flex items-center justify-center">
+        <!--Discord-->
+        <a
+          class="bg-white p-2 rounded-full mx-3"
+          href="https://discordapp.com/users/495983789189758988"
+          target="_blank"
+        >
+          <img
+            class="w-8 h-8"
+            src="https://zoltanfodor.b-cdn.net/discord-logo.png"
+            alt="Conneect on Discord"
+          />
+        </a>
+        <!--Spotify-->
+        <a
+          class="bg-white p-2 rounded-full mx-3"
+          href="https://open.spotify.com/playlist/1DgMS1ijBNF6DXwFYEkqYf?si=3b0c4efa9524498f&pt=5438e1fb9ecb79520abae9fc20085d26"
+          target="_blank"
+        >
+          <img
+            class="w-8 h-8"
+            src="https://zoltanfodor.b-cdn.net/spotify-icon.png"
+            alt="Dev Music playlist for long coding sessions"
+          />
+        </a>
+        <!--EMAIL-->
+        <a
+          class="bg-white p-2 rounded-full mx-3"
+          href="mailto:me@zoltanfodor.dev"
+          target="_blank"
+        >
+          <img
+            class="w-8"
+            src="https://zoltanfodor.b-cdn.net/email-h.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+  </div>
 
-			<!--Social Quick Links-->
-			<div class="flex items-center justify-center">
-				<!--Github-->
-				<a
-					class="bg-white p-2 rounded-full mx-3"
-					href="https://github.com/ritmillio"
-					target="_blank"
-				>
-					<img
-						class="w-8 h-8"
-						src="https://zoltanfodor.b-cdn.net/github-octa.png"
-						alt="Check out my github profile"
-					/>
-				</a>
-				<!--Spotify-->
-				<a
-					class="bg-white p-2 rounded-full mx-3"
-					href="https://open.spotify.com/playlist/1DgMS1ijBNF6DXwFYEkqYf?si=3b0c4efa9524498f&pt=5438e1fb9ecb79520abae9fc20085d26"
-					target="_blank"
-				>
-					<img
-						class="w-8 h-8"
-						src="https://zoltanfodor.b-cdn.net/spotify-icon.png"
-						alt="Dev Music playlist for long coding sessions"
-					/>
-				</a>
-				<!--EMAIL-->
-				<a
-					class="bg-white p-2 rounded-full mx-3"
-					href="mailto:me@zoltanfodor.dev"
-					target="_blank"
-				>
-					<img
-						class="w-8"
-						src="https://zoltanfodor.b-cdn.net/email-h.png"
-						alt=""
-					/>
-				</a>
-				<!--CV-->
-				<a
-					class="bg-white p-2 rounded-full mx-3"
-					href="https://cv.zoltanfodor.dev/"
-					target="_blank"
-				>
-					<img
-						class="w-8"
-						src="https://zoltanfodor.b-cdn.net/curriculum-vitae.png"
-						alt=""
-					/>
-				</a>
-			</div>
-		</div>
-	</div>
+  <!--Load Vanta.js-->
+  <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
+  ></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"
+  ></script>
+  <script type="module">
+    //Creating a unique experience for each person by creating a random dark and light color and load those colores into Vanta object.
 
-	<!--Load Vanta.js-->
-	<script
-		defer
-		src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"
-	></script>
-	<script
-		defer
-		src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"
-	></script>
-	<script type="module">
-		//Creating a unique experience for each person by creating a random dark and light color and load those colores into Vanta object.
+    //Foreground color
+    const randomColor = () => {
+      let color = "#";
+      for (let i = 0; i < 3; i++)
+        color += (
+          "0" +
+          Math.floor(((1 + Math.random()) * Math.pow(16, 2)) / 2).toString(16)
+        ).slice(-2);
+      return color;
+    };
 
-		//Foreground color
-		const randomColor = () => {
-			let color = "#";
-			for (let i = 0; i < 3; i++)
-				color += (
-					"0" +
-					Math.floor(
-						((1 + Math.random()) * Math.pow(16, 2)) / 2
-					).toString(16)
-				).slice(-2);
-			return color;
-		};
+    //Background Color
+    const randomBackgroundColor = () => {
+      let color = "#";
+      for (let i = 0; i < 3; i++)
+        color += (
+          "0" + Math.floor((Math.random() * Math.pow(16, 2)) / 2).toString(16)
+        ).slice(-2);
+      return color;
+    };
 
-		//Background Color
-		const randomBackgroundColor = () => {
-			let color = "#";
-			for (let i = 0; i < 3; i++)
-				color += (
-					"0" +
-					Math.floor((Math.random() * Math.pow(16, 2)) / 2).toString(
-						16
-					)
-				).slice(-2);
-			return color;
-		};
+    //Creating a VANTA object
+    const vantaObj = {
+      el: "#vanta",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: randomColor(),
+      backgroundColor: randomBackgroundColor(),
+    };
 
-		//Creating a VANTA object
-		const vantaObj = {
-			el: "#vanta",
-			mouseControls: true,
-			touchControls: true,
-			gyroControls: false,
-			scale: 1.0,
-			scaleMobile: 1.0,
-			color: randomColor(),
-			backgroundColor: randomBackgroundColor(),
-		};
+    //Init Vanta
+    VANTA.TOPOLOGY(vantaObj);
+    document.querySelector("#vanta").style.maxHeight = "100vh";
 
-		//Init Vanta
-		VANTA.TOPOLOGY(vantaObj);
-		document.querySelector("#vanta").style.maxHeight = "100vh";
-
-		//Console message ;D
-		if (navigator.userAgent.toLowerCase().indexOf("chrome") > -1) {
-			const consoleMessage = [
-				"\n %c Made with \u2665 by Zoltan \n",
-				"color: #fff; background: #000; padding: 5px 0;",
-			];
-			window.console.log.apply(console, consoleMessage);
-		} else
-			window.console && window.console.log("Made with \u2665 by Zoltan");
-	</script>
+    //Console message ;D
+    if (navigator.userAgent.toLowerCase().indexOf("chrome") > -1) {
+      const consoleMessage = [
+        "\n %c Made with \u2665 by Zoltan \n",
+        "color: #fff; background: #000; padding: 5px 0;",
+      ];
+      window.console.log.apply(console, consoleMessage);
+    } else window.console && window.console.log("Made with \u2665 by Zoltan");
+  </script>
 </Layout>
