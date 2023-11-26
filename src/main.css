@@ -1,5 +1,10 @@
-/* Creating a btn component */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
 .btn {
-    @apply bg-white text-black text-center uppercase rounded-lg px-8 py-2 mb-4 flex items-center justify-center;
-    width: inherit;
+  @apply bg-white text-black text-center uppercase rounded-lg px-8 py-2 mb-4 flex items-center justify-center;
+  width: inherit;
 }
